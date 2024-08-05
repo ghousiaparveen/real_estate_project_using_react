@@ -6,6 +6,7 @@ import DreamValley from '../component/dreamvalley';
 import dvbg from '../image/dv-bg.jpeg';
 import dvbg1 from '../image/dv-bg1.jpeg';
 import dvbg2 from '../image/dv-bg2.jpeg';
+import Aashiyana from '../component/aashiyana';
 
 
 const PlotAvailabilty = () => {
@@ -45,8 +46,7 @@ const PlotAvailabilty = () => {
         </div>
       {visibleSection === 'Aashiyana' && (
         <div id='Aashiyana'>
-          <h1 className='title'>AASHIYANA RESIDENCY</h1>
-          <p>Details about AASHIYANA</p>
+          <Aashiyana/>
         </div>
       )}
       {visibleSection ==='shriShyamVihar' && (

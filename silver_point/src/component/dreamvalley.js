@@ -23,7 +23,7 @@ const DreamValley = () =>{
         <p className="para">At Dream Valley, we understand the importance of financial 
         flexibility. So the good news is that, bank loans are available from both <span>NBFC 
         (Non-Banking Financial Companies) and Government Banks</span>. 
-        With these options available, securing your dream home would been
+        With these options available, securing your dream home would be
         much easier.</p>
         <h2 className="title">Affordable Pricing for Your Dream Home</h2>
         <p className="para">Dream Valley plots are available at an attractive rate
