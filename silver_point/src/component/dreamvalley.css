@@ -58,13 +58,39 @@ span:hover{
     box-shadow: 5px 5px 5px 5px #ae0b0b;
     
 }
-
+.v1{
+    width: 70%;
+    height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid #222323;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #d7d1d1;
+    
+}
+.site-video1{
+    background-color: antiquewhite;
+    padding: 60px;
+}
 @media (max-width:760px) {
 
     .row{
         flex-direction: column;
     }
     .column{
-        width: 100%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+    .v1{
+        width: 260px;
+        height: 200px;
+        border-radius: 5px;
+        border: 5px solid #171616;
+       }
+    .site-video1{
+        padding: 0px;
+       }
 }

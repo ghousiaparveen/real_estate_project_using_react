@@ -6,6 +6,7 @@ import dv3 from '../image/dv-image/dv3.jpeg';
 import dv4 from '../image/dv-image/dv4.jpeg';
 import dv5 from '../image/dv-image/dv5.jpeg';
 import plot from '../image/dv-image/plot.jpg';
+import video2 from '../videos/video2.mp4';
 
 const DreamValley = () =>{
 
@@ -50,6 +51,11 @@ const DreamValley = () =>{
         <div className="dv1">
             <h2 className="title">Site Map and Layout</h2>
             <img src={plot} alt="plot map" className="plotMap"/>
+        </div>
+        <div className="site-video1">
+            <video controls className="v1">
+                <source src={video2} type="video/mp4"/>
+            </video>
         </div>
         </div>
     )

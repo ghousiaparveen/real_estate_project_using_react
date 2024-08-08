@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .as1{
     background-color: antiquewhite;
     padding-top: 20px;
@@ -21,4 +25,31 @@ span {
 }
 span:hover{
     color: blue;
+}
+.vi{
+    width: 600;
+    height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 20px solid #171616;
+    box-shadow: 10px 10px 10px 10px #d7d1d1;
+}
+
+.site-video{
+    background-color: antiquewhite;
+    padding: 60px;
+}
+
+@media (max-width:760px) {
+   .vi{
+    width: 260px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid #171616;
+   }
+   .site-video{
+    padding: 0px;
+   }
 }

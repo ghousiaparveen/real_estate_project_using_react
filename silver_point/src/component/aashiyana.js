@@ -1,5 +1,6 @@
 import React  from "react";
 import './aashiyana.css';
+import video1 from '../videos/video1.mp4';
 
 const Aashiyana = ()=>{
     return(
@@ -24,6 +25,12 @@ const Aashiyana = ()=>{
         <p className="para">Dream Valley plots are available at an attractive rate
         of <span>13,500 per square yard</span>. This competitive pricing ensures that you get 
         the best value for your investment while enjoying premium facilities.</p>
+            </div>
+
+            <div className="site-video">
+                <video controls className="vi">
+                    <source src={video1} type="video/mp4"/>
+                </video>
             </div>
         </div>
     )
