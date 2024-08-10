@@ -4,7 +4,13 @@ import video1 from '../videos/video1.mp4';
 
 const Aashiyana = ()=>{
     return(
-        <div>
+        <div id="Aashiyana">
+
+            <div className="site-video">
+                <video controls className="vi">
+                    <source src={video1} type="video/mp4"/>
+                </video>
+            </div>
             <div className="as1">
                 <h1 className="title">Welcome to Aashiyana</h1>
                 <p className="para">
@@ -27,11 +33,7 @@ const Aashiyana = ()=>{
         the best value for your investment while enjoying premium facilities.</p>
             </div>
 
-            <div className="site-video">
-                <video controls className="vi">
-                    <source src={video1} type="video/mp4"/>
-                </video>
-            </div>
+            
         </div>
     )
 }

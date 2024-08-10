@@ -1,13 +1,17 @@
 
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #131842;
     color: rgb(26, 30, 27);
-    position: relative;
     padding-left: 20px;
+    width: 100%;
 }
 .logo-container{
     display: flex;

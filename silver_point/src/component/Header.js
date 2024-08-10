@@ -23,7 +23,7 @@ const Header = ()=>{
     }
 
     return(
-        <div className='header'>
+        <header className='header'>
             <div className='logo-container'>
                 <img src={logo} alt='logo' className='logo'/>
                 <h1 className='logo-text'>Silver Point</h1>
@@ -41,7 +41,7 @@ const Header = ()=>{
                     &#9776;
                 </div>
             </nav>
-        </div>
+        </header>
     )
 };
 
